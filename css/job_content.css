@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size:10px;
+}
+
+.job-content{
+    width: 100%;
+}
+.job-content .container{
+    padding: 10px;
+}
+.job-content .container .image-content{
+    height:300px;
+    background: url("bgg.png") no-repeat center;
+    background-position: flex;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+
+}
+
+.job-content .container .image-content .content{
+    width:100%;
+    padding:12px;
+    background: rgba(255,255,255,.9);
+}
+.job-content .container .image-content .content .text{
+    display: inline-block;
+}
+.job-content .container .image-content .content .text h4{
+    font-size: 18px;
+    font-family: lato , sans-serif;
+    color: #182642;
+    margin-bottom: 3px;
+}
+.job-content .container .image-content .content .text p{
+    display:inline-block;
+    font-size: 12.8px;
+    font-family: lato, sans-serif;
+    color: #5d677A;
+    margin-right: 5px;
+}
+.job-content .container .image-content .content .btn{
+    padding: 12px 0;
+    float: right;
+}
+.job-content .container .image-content .content .btn a{
+    font-size: 17.6px;
+    font-family: lato, sans-serif;
+    color: white;
+    text-decoration: white;
+    border-radius: 5px;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    padding:12px 100px;
+}
+
+.job-content .container .small-nav{
+    position: relative;
+    width:100%;
+    margin-top: 20px;
+}
+.job-content .container .small-nav::after{
+    content: '';
+    position: relative;
+    width:100%;
+    margin-top: 8px;
+    display: block;
+    height: 2px;
+    border: .1px solid rgb(235, 230, 230);
+}
+
+.job-content .container .small-nav a{
+    position: relative;
+    font-family: lato , sans-serif;
+    font-size: 14.6px;
+    color: #182642;
+    text-decoration: none;
+    font-weight: 550;
+}
+.job-content .container .small-nav a::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    border: 1.5px solid #7f7fd5;
+    bottom:-8;
+}
+.job-content .container .small-nav i{
+    float: right;
+    font-size: 18px;
+    color: #5d677A;
+    margin-top: -10px;
+    border-radius: 50%;
+    color: #5d677A;
+    text-align: center;
+    padding: 5px;
+    transition: all linear;
+
+}
+
+.job-content .container .small-nav i:hover{
+    background:  rgba(93, 103, 122, 0.137);
+}

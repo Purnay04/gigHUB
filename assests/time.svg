@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="47px" viewBox="0 0 60 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-QuickApply</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Finals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Returning-Visitor---Not-logged-in" transform="translate(-170.000000, -1696.000000)" stroke="#FEC236">
+            <g id="How-CB-Can-Help" transform="translate(133.000000, 1353.000000)">
+                <g id="icon-QuickApply" transform="translate(38.000000, 344.000000)">
+                    <path d="M14.5497143,15.7345714 C17.5187619,6.98577778 25.799873,0.69047619 35.5521587,0.69047619 C47.7984444,0.69047619 57.7256508,10.6176825 57.7256508,22.8639683 C57.7256508,35.1111746 47.7984444,45.038381 35.5521587,45.038381 C27.898,45.038381 21.149746,41.1606667 17.1652381,35.2621587" id="Stroke-1" stroke-width="1.5"></path>
+                    <polyline id="Stroke-3" stroke-width="1.5" points="42.8651302 29.4533206 35.552527 22.8643365 35.552527 8.29897143"></polyline>
+                    <path d="M3.44409524,20.2873873 L13.3786667,20.2873873" id="Stroke-5"></path>
+                    <path d="M0.690292063,25.8111968 L19.822927,25.8111968" id="Stroke-7" stroke-width="1.5"></path>
+                    <path d="M8.0473619,31.3350063 L17.9819333,31.3350063" id="Stroke-9"></path>
+                    <path d="M6.20609206,31.3350063 L6.01367937,31.3350063" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size:10px;
+}
+/* header */
+header{
+    position: relative;
+    z-index: 80;
+}
+header nav{
+    position: relative;
+    margin-top: 8px;
+    width: 100%;
+}
+header nav::after{
+    position: absolute;
+    bottom:-6;
+    content: '';
+    display:block;
+    height: 1.5px;
+    width:100%;
+    border: .1px solid rgb(235, 230, 230);
+  
+}
+header nav .icon a{
+    color: blue;
+    text-decoration: none;
+}
+header nav .icon{
+    margin-left: 20px;
+    display: inline-block;
+    font-style:bold;
+    font-size:200%;
+    font-family: comic sans MS;
+}
+header nav .icon:hover,
+.search-boxes .btnsearch input[type="submit"]:hover{
+    cursor: pointer;
+}
+header nav ul{
+    margin-left: 20px;
+    width:90%;
+    display:inline-block;
+}
+.fltright{
+    float:right;
+    margin-right: 10px;
+}
+.blueone{
+    color: #2164f3;
+}
+header nav li{
+    margin-left:15px;
+    display:inline-block;
+}
+header nav li a{
+    position: relative;
+    font-size: 12px;
+    text-decoration: none;
+    color: grey;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    transition: color ease-in 200ms;
+}
+header nav li a::after{
+    content: '';
+    position: absolute;
+    display:block;
+    top:140%;
+    width:0;
+    transition: width ease-in 200ms;
+}
+header nav li a:hover::after{
+    width:100%;
+    border:1.5px solid;
+    border-color:#2164f3;
+}
+.postjb{
+    position: relative;
+    margin-top: 5px;
+    width:100%;
+    height:350px;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.445),transparent ),
+               linear-gradient(to bottom,rgba(0,0,0,0.2),transparent ),
+               url("cover.png")  center no-repeat,
+               linear-gradient(to top,rgba(0, 0, 0, 0.767),transparent );
+    background-size:cover;
+  
+}
+.postjb .box{
+    position: absolute;
+    bottom:1;
+    width: 100%;
+    height:190px;
+    padding:12px 15px 15px 50px;
+    background:url("home_employer.svg") right no-repeat,
+               linear-gradient(to top,rgb(255, 255, 255),transparent),
+               linear-gradient(to bottom,rgb(255, 255, 255),transparent);
+    background-size: 225px 400px;
+    background-position-x: 90%;
+    background-clip: border-box;
+}
+.postjb .box h4{
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+.postjb .box p{
+    margin: 10px 0px 25px 0px;     
+    font-size: 1.4rem;
+    font-family: lato,sans-serif;
+    text-transform: capitalize;
+}
+.postjb .box a{
+    border: 1.5px solid black;
+    padding: 11px 60px;
+    font-size:1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(rgba(13, 177, 199, 0.726),rgba(0, 26, 255, 0.664));
+}
+.postjb .box a:hover{
+    transition: background 650ms ease-in-out;
+    background: rgba(13, 177, 199, 0.726);
+    color:white;
+}
+th{
+    text-align: start;
+}
+th,td{
+    padding-right: 0px;
+}
+.handle_request{
+    padding:25px 30px 0px 30px;
+}
+.handle_request h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.bold{
+    font-size:13px;
+    font-weight: 600;
+}
+.right{
+    float: right;
+    font-size:.8rem;
+    margin: 0px 10px 10px 0px;
+}
